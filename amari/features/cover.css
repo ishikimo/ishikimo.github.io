@@ -126,7 +126,7 @@ body {
   font-weight: bold;
   color: #333;
   background-color: transparent;
-  border-bottom: .25rem solid black;
+  border-bottom: .25rem solid transparent;
   text-decoration: none;
 }
 
@@ -145,7 +145,7 @@ body {
 
 .nav-masthead .active {
   color: #fff;
-  border-bottom-color: #fff;
+  border-bottom-color: black;
 }
 
 @media (min-width: 48em) {
