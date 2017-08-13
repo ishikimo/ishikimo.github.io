@@ -17,13 +17,13 @@ table {
 }
 
 td, th {
-    border: 1px solid #000;
+    border: 1px solid #fff;
     text-align: left;
     padding: 8px;
 }
 
 tr {
-    background-color: #dddddd;
+    background-color: #333;
 }
 
 /* Custom default button */
