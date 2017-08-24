@@ -1,0 +1,23 @@
+<script type="text/javascript">
+function add() {
+    var num = document.getElementById("mynum").value;
+    if(num == '') num = 0;
+    document.getElementById("mynum").value = parseInt(num ,10) + 1;
+    }
+</script>
+<html>
+<head>
+<title>x</title>
+<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  <div id="all" align="center">
+<div id='txt'></div>
+<form action="" method="post">
+Soft Resets: <input type="text" id='mynum' width="100px" >
+<input class="btn" type="button" onclick="add()" value="Add SR">
+<p class="lil">You can manually add by pressing the button, or type in the amount yourself!</p>
+</form>
+</div>
+</body>
+</html>
